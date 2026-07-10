@@ -1,0 +1,15 @@
+{
+  "name": "verbalino",
+  "version": "1.0.0",
+  "description": "Generatore di riepiloghi automatici da verbali di riunione — incolla il verbale e ottieni decisioni, azioni e scadenze in un riepilogo strutturato.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["meeting", "minutes", "summary", "italian", "verbale", "riunione"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "summaries": {
+    "503eafd06f": {
+      "id": "503eafd06f",
+      "originalText": "\nRiunione settimanale di marketing — 10 luglio 2026\n\nPartecipanti: Mario Rossi, Laura Bianchi, Giuseppe Verdi, Anna Neri\n\nDecisioni:\n- Aumentare il budget marketing del 15% per il Q3\n- Lanciare la nuova campagna social entro settembre\n- Assumere un nuovo graphic designer\n\nAzioni:\n- Mario Rossi: preparare il report finanziario entro il 20/07/2026\n- Laura Bianchi: contattare i fornitori per la nuova campagna entro il 15/07/2026\n- Giuseppe Verdi: aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026\n\nPunti aperti:\n- Sede del nuovo ufficio ancora da definire\n- Budget per il 2027 da valutare con la direzione\n- Possibile partnership con l'agenzia XYZ da approfondire\n",
+      "summary": {
+        "title": "Riunione settimanale di marketing — 10 luglio 2026",
+        "date": "2026-07-10",
+        "decisions": [
+          {
+            "text": "Aumentare il budget marketing del 15% per il Q3"
+          },
+          {
+            "text": "Lanciare la nuova campagna social entro settembre"
+          },
+          {
+            "text": "Assumere un nuovo graphic designer"
+          }
+        ],
+        "actions": [
+          {
+            "text": "Contattare i fornitori per la nuova campagna entro il 15/07/2026",
+            "responsible": "Laura Bianchi",
+            "deadline": "15/07/2026"
+          },
+          {
+            "text": "Preparare il report finanziario entro il 20/07/2026",
+            "responsible": "Mario Rossi",
+            "deadline": "20/07/2026"
+          },
+          {
+            "text": "Aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026",
+            "responsible": "Giuseppe Verdi",
+            "deadline": "25/07/2026"
+          }
+        ],
+        "openPoints": [
+          {
+            "text": "Sede del nuovo ufficio ancora da definire"
+          },
+          {
+            "text": "Budget per il 2027 da valutare con la direzione"
+          },
+          {
+            "text": "Possibile partnership con l'agenzia XYZ da approfondire"
+          }
+        ],
+        "metadata": {
+          "charCount": 685,
+          "wordCount": 109,
+          "processingTime": 0,
+          "peopleDetected": [
+            "Mario Rossi",
+            "Laura Bianchi",
+            "Giuseppe Verdi",
+            "Anna Neri"
+          ],
+          "datesDetected": [
+            "10/07/2026",
+            "15/07/2026",
+            "20/07/2026",
+            "25/07/2026"
+          ]
+        }
+      },
+      "createdAt": "2026-07-10T10:25:54.612Z",
+      "expiresAt": "2026-07-17T10:25:54.612Z"
+    },
+    "46d7757bc3": {
+      "id": "46d7757bc3",
+      "originalText": "\nRiunione settimanale di marketing — 10 luglio 2026\n\nPartecipanti: Mario Rossi, Laura Bianchi, Giuseppe Verdi, Anna Neri\n\nDecisioni:\n- Aumentare il budget marketing del 15% per il Q3\n- Lanciare la nuova campagna social entro settembre\n- Assumere un nuovo graphic designer\n\nAzioni:\n- Mario Rossi: preparare il report finanziario entro il 20/07/2026\n- Laura Bianchi: contattare i fornitori per la nuova campagna entro il 15/07/2026\n- Giuseppe Verdi: aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026\n\nPunti aperti:\n- Sede del nuovo ufficio ancora da definire\n- Budget per il 2027 da valutare con la direzione\n- Possibile partnership con l'agenzia XYZ da approfondire\n",
+      "summary": {
+        "title": "Riunione settimanale di marketing — 10 luglio 2026",
+        "date": "2026-07-10",
+        "decisions": [
+          {
+            "text": "Aumentare il budget marketing del 15% per il Q3"
+          },
+          {
+            "text": "Lanciare la nuova campagna social entro settembre"
+          },
+          {
+            "text": "Assumere un nuovo graphic designer"
+          }
+        ],
+        "actions": [
+          {
+            "text": "Contattare i fornitori per la nuova campagna entro il 15/07/2026",
+            "responsible": "Laura Bianchi",
+            "deadline": "15/07/2026"
+          },
+          {
+            "text": "Preparare il report finanziario entro il 20/07/2026",
+            "responsible": "Mario Rossi",
+            "deadline": "20/07/2026"
+          },
+          {
+            "text": "Aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026",
+            "responsible": "Giuseppe Verdi",
+            "deadline": "25/07/2026"
+          }
+        ],
+        "openPoints": [
+          {
+            "text": "Sede del nuovo ufficio ancora da definire"
+          },
+          {
+            "text": "Budget per il 2027 da valutare con la direzione"
+          },
+          {
+            "text": "Possibile partnership con l'agenzia XYZ da approfondire"
+          }
+        ],
+        "metadata": {
+          "charCount": 685,
+          "wordCount": 109,
+          "processingTime": 0,
+          "peopleDetected": [
+            "Mario Rossi",
+            "Laura Bianchi",
+            "Giuseppe Verdi",
+            "Anna Neri"
+          ],
+          "datesDetected": [
+            "10/07/2026",
+            "15/07/2026",
+            "20/07/2026",
+            "25/07/2026"
+          ]
+        }
+      },
+      "createdAt": "2026-07-10T10:25:54.614Z",
+      "expiresAt": "2026-07-17T10:25:54.614Z"
+    },
+    "90e308f738": {
+      "id": "90e308f738",
+      "originalText": "\nRiunione settimanale di marketing — 10 luglio 2026\n\nPartecipanti: Mario Rossi, Laura Bianchi, Giuseppe Verdi, Anna Neri\n\nDecisioni:\n- Aumentare il budget marketing del 15% per il Q3\n- Lanciare la nuova campagna social entro settembre\n- Assumere un nuovo graphic designer\n\nAzioni:\n- Mario Rossi: preparare il report finanziario entro il 20/07/2026\n- Laura Bianchi: contattare i fornitori per la nuova campagna entro il 15/07/2026\n- Giuseppe Verdi: aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026\n\nPunti aperti:\n- Sede del nuovo ufficio ancora da definire\n- Budget per il 2027 da valutare con la direzione\n- Possibile partnership con l'agenzia XYZ da approfondire\n",
+      "summary": {
+        "title": "Riunione settimanale di marketing — 10 luglio 2026",
+        "date": "2026-07-10",
+        "decisions": [
+          {
+            "text": "Aumentare il budget marketing del 15% per il Q3"
+          },
+          {
+            "text": "Lanciare la nuova campagna social entro settembre"
+          },
+          {
+            "text": "Assumere un nuovo graphic designer"
+          }
+        ],
+        "actions": [
+          {
+            "text": "Contattare i fornitori per la nuova campagna entro il 15/07/2026",
+            "responsible": "Laura Bianchi",
+            "deadline": "15/07/2026"
+          },
+          {
+            "text": "Preparare il report finanziario entro il 20/07/2026",
+            "responsible": "Mario Rossi",
+            "deadline": "20/07/2026"
+          },
+          {
+            "text": "Aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026",
+            "responsible": "Giuseppe Verdi",
+            "deadline": "25/07/2026"
+          }
+        ],
+        "openPoints": [
+          {
+            "text": "Sede del nuovo ufficio ancora da definire"
+          },
+          {
+            "text": "Budget per il 2027 da valutare con la direzione"
+          },
+          {
+            "text": "Possibile partnership con l'agenzia XYZ da approfondire"
+          }
+        ],
+        "metadata": {
+          "charCount": 685,
+          "wordCount": 109,
+          "processingTime": 1,
+          "peopleDetected": [
+            "Mario Rossi",
+            "Laura Bianchi",
+            "Giuseppe Verdi",
+            "Anna Neri"
+          ],
+          "datesDetected": [
+            "10/07/2026",
+            "15/07/2026",
+            "20/07/2026",
+            "25/07/2026"
+          ]
+        }
+      },
+      "createdAt": "2026-07-10T10:25:54.617Z",
+      "expiresAt": "2026-07-17T10:25:54.617Z"
+    },
+    "6c2875c80f": {
+      "id": "6c2875c80f",
+      "originalText": "\nRiunione settimanale di marketing — 10 luglio 2026\n\nPartecipanti: Mario Rossi, Laura Bianchi, Giuseppe Verdi, Anna Neri\n\nDecisioni:\n- Aumentare il budget marketing del 15% per il Q3\n- Lanciare la nuova campagna social entro settembre\n- Assumere un nuovo graphic designer\n\nAzioni:\n- Mario Rossi: preparare il report finanziario entro il 20/07/2026\n- Laura Bianchi: contattare i fornitori per la nuova campagna entro il 15/07/2026\n- Giuseppe Verdi: aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026\n\nPunti aperti:\n- Sede del nuovo ufficio ancora da definire\n- Budget per il 2027 da valutare con la direzione\n- Possibile partnership con l'agenzia XYZ da approfondire\n",
+      "summary": {
+        "title": "Riunione settimanale di marketing — 10 luglio 2026",
+        "date": "2026-07-10",
+        "decisions": [
+          {
+            "text": "Aumentare il budget marketing del 15% per il Q3"
+          },
+          {
+            "text": "Lanciare la nuova campagna social entro settembre"
+          },
+          {
+            "text": "Assumere un nuovo graphic designer"
+          }
+        ],
+        "actions": [
+          {
+            "text": "Contattare i fornitori per la nuova campagna entro il 15/07/2026",
+            "responsible": "Laura Bianchi",
+            "deadline": "15/07/2026"
+          },
+          {
+            "text": "Preparare il report finanziario entro il 20/07/2026",
+            "responsible": "Mario Rossi",
+            "deadline": "20/07/2026"
+          },
+          {
+            "text": "Aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026",
+            "responsible": "Giuseppe Verdi",
+            "deadline": "25/07/2026"
+          }
+        ],
+        "openPoints": [
+          {
+            "text": "Sede del nuovo ufficio ancora da definire"
+          },
+          {
+            "text": "Budget per il 2027 da valutare con la direzione"
+          },
+          {
+            "text": "Possibile partnership con l'agenzia XYZ da approfondire"
+          }
+        ],
+        "metadata": {
+          "charCount": 685,
+          "wordCount": 109,
+          "processingTime": 1,
+          "peopleDetected": [
+            "Mario Rossi",
+            "Laura Bianchi",
+            "Giuseppe Verdi",
+            "Anna Neri"
+          ],
+          "datesDetected": [
+            "10/07/2026",
+            "15/07/2026",
+            "20/07/2026",
+            "25/07/2026"
+          ]
+        }
+      },
+      "createdAt": "2026-07-10T10:26:41.421Z",
+      "expiresAt": "2026-07-17T10:26:41.421Z"
+    },
+    "ac56b30bbc": {
+      "id": "ac56b30bbc",
+      "originalText": "\nRiunione settimanale di marketing — 10 luglio 2026\n\nPartecipanti: Mario Rossi, Laura Bianchi, Giuseppe Verdi, Anna Neri\n\nDecisioni:\n- Aumentare il budget marketing del 15% per il Q3\n- Lanciare la nuova campagna social entro settembre\n- Assumere un nuovo graphic designer\n\nAzioni:\n- Mario Rossi: preparare il report finanziario entro il 20/07/2026\n- Laura Bianchi: contattare i fornitori per la nuova campagna entro il 15/07/2026\n- Giuseppe Verdi: aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026\n\nPunti aperti:\n- Sede del nuovo ufficio ancora da definire\n- Budget per il 2027 da valutare con la direzione\n- Possibile partnership con l'agenzia XYZ da approfondire\n",
+      "summary": {
+        "title": "Riunione settimanale di marketing — 10 luglio 2026",
+        "date": "2026-07-10",
+        "decisions": [
+          {
+            "text": "Aumentare il budget marketing del 15% per il Q3"
+          },
+          {
+            "text": "Lanciare la nuova campagna social entro settembre"
+          },
+          {
+            "text": "Assumere un nuovo graphic designer"
+          }
+        ],
+        "actions": [
+          {
+            "text": "Contattare i fornitori per la nuova campagna entro il 15/07/2026",
+            "responsible": "Laura Bianchi",
+            "deadline": "15/07/2026"
+          },
+          {
+            "text": "Preparare il report finanziario entro il 20/07/2026",
+            "responsible": "Mario Rossi",
+            "deadline": "20/07/2026"
+          },
+          {
+            "text": "Aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026",
+            "responsible": "Giuseppe Verdi",
+            "deadline": "25/07/2026"
+          }
+        ],
+        "openPoints": [
+          {
+            "text": "Sede del nuovo ufficio ancora da definire"
+          },
+          {
+            "text": "Budget per il 2027 da valutare con la direzione"
+          },
+          {
+            "text": "Possibile partnership con l'agenzia XYZ da approfondire"
+          }
+        ],
+        "metadata": {
+          "charCount": 685,
+          "wordCount": 109,
+          "processingTime": 0,
+          "peopleDetected": [
+            "Mario Rossi",
+            "Laura Bianchi",
+            "Giuseppe Verdi",
+            "Anna Neri"
+          ],
+          "datesDetected": [
+            "10/07/2026",
+            "15/07/2026",
+            "20/07/2026",
+            "25/07/2026"
+          ]
+        }
+      },
+      "createdAt": "2026-07-10T10:26:41.423Z",
+      "expiresAt": "2026-07-17T10:26:41.423Z"
+    },
+    "7949eaa89b": {
+      "id": "7949eaa89b",
+      "originalText": "\nRiunione settimanale di marketing — 10 luglio 2026\n\nPartecipanti: Mario Rossi, Laura Bianchi, Giuseppe Verdi, Anna Neri\n\nDecisioni:\n- Aumentare il budget marketing del 15% per il Q3\n- Lanciare la nuova campagna social entro settembre\n- Assumere un nuovo graphic designer\n\nAzioni:\n- Mario Rossi: preparare il report finanziario entro il 20/07/2026\n- Laura Bianchi: contattare i fornitori per la nuova campagna entro il 15/07/2026\n- Giuseppe Verdi: aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026\n\nPunti aperti:\n- Sede del nuovo ufficio ancora da definire\n- Budget per il 2027 da valutare con la direzione\n- Possibile partnership con l'agenzia XYZ da approfondire\n",
+      "summary": {
+        "title": "Riunione settimanale di marketing — 10 luglio 2026",
+        "date": "2026-07-10",
+        "decisions": [
+          {
+            "text": "Aumentare il budget marketing del 15% per il Q3"
+          },
+          {
+            "text": "Lanciare la nuova campagna social entro settembre"
+          },
+          {
+            "text": "Assumere un nuovo graphic designer"
+          }
+        ],
+        "actions": [
+          {
+            "text": "Contattare i fornitori per la nuova campagna entro il 15/07/2026",
+            "responsible": "Laura Bianchi",
+            "deadline": "15/07/2026"
+          },
+          {
+            "text": "Preparare il report finanziario entro il 20/07/2026",
+            "responsible": "Mario Rossi",
+            "deadline": "20/07/2026"
+          },
+          {
+            "text": "Aggiornare il sito web con le nuove pagine prodotto entro il 25/07/2026",
+            "responsible": "Giuseppe Verdi",
+            "deadline": "25/07/2026"
+          }
+        ],
+        "openPoints": [
+          {
+            "text": "Sede del nuovo ufficio ancora da definire"
+          },
+          {
+            "text": "Budget per il 2027 da valutare con la direzione"
+          },
+          {
+            "text": "Possibile partnership con l'agenzia XYZ da approfondire"
+          }
+        ],
+        "metadata": {
+          "charCount": 685,
+          "wordCount": 109,
+          "processingTime": 0,
+          "peopleDetected": [
+            "Mario Rossi",
+            "Laura Bianchi",
+            "Giuseppe Verdi",
+            "Anna Neri"
+          ],
+          "datesDetected": [
+            "10/07/2026",
+            "15/07/2026",
+            "20/07/2026",
+            "25/07/2026"
+          ]
+        }
+      },
+      "createdAt": "2026-07-10T10:26:41.427Z",
+      "expiresAt": "2026-07-17T10:26:41.427Z"
+    }
+  }
+}

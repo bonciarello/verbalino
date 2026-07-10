@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verbalino — Generatore di riepiloghi da verbali di riunione</title>
+<meta name="description" content="Incolla il verbale della tua riunione e Verbalino estrae automaticamente decisioni, azioni, responsabili e scadenze in un riepilogo strutturato. Salva e condividi con un link.">
+<link rel="canonical" href="https://cristianporco.it/app/verbalino/">
+<base href="./">
+<meta property="og:title" content="Verbalino — Generatore di riepiloghi da verbali di riunione">
+<meta property="og:description" content="Incolla il verbale, ottieni il riepilogo. Decisioni, azioni e scadenze estratti automaticamente. Salva e condividi con un link.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cristianporco.it/app/verbalino/">
+<meta property="og:site_name" content="Verbalino">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Verbalino",
+  "url": "https://cristianporco.it/app/verbalino/",
+  "description": "Generatore automatico di riepiloghi strutturati da verbali di riunione. Estrae decisioni, azioni, responsabili e scadenze.",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "browserRequirements": "Requires JavaScript"
+}
+</script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Salta al contenuto</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="./" class="logo" aria-label="Verbalino — Home">
+      <span class="logo-icon" aria-hidden="true">¶</span>
+      <span class="logo-text">Verbalino</span>
+    </a>
+    <p class="header-tagline">Dal verbale al riepilogo in un clic</p>
+  </div>
+</header>
+
+<main id="main-content">
+  <!-- Input Section -->
+  <section class="input-section" aria-labelledby="input-heading">
+    <div class="input-eyebrow">Incolla il verbale</div>
+    <h1 id="input-heading" class="input-title">Trasforma il tuo verbale in un riepilogo strutturato</h1>
+
+    <form id="verbal-form" class="verbal-form" novalidate>
+      <div class="field">
+        <label for="verbal-text" class="field-label">Testo del verbale</label>
+        <textarea
+          id="verbal-text"
+          class="verbal-textarea"
+          placeholder="Incolla qui il testo del verbale della riunione…&#10;&#10;Esempio:&#10;Partecipanti: Mario Rossi, Laura Bianchi&#10;&#10;Si decide di aumentare il budget marketing del 10%.&#10;Mario Rossi preparerà il report finanziario entro il 20/07/2026.&#10;Laura Bianchi deve contattare i fornitori entro il 15/07.&#10;Da valutare: nuova sede per l'ufficio."
+          rows="12"
+          required
+          aria-describedby="verbal-hint"
+        ></textarea>
+        <p id="verbal-hint" class="field-hint">Suggerimento: usa frasi come «Si decide di…», «Mario farà…», «Da valutare…» per risultati migliori.</p>
+        <p id="verbal-error" class="field-error" role="alert" hidden></p>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn--primary btn--generate" id="generate-btn">
+          <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="14 2 20 8 14 14"></polyline>
+            <path d="M4 12h13"></path>
+            <polyline points="4 22 10 16 4 10"></polyline>
+          </svg>
+          Genera riepilogo
+        </button>
+        <button type="button" class="btn btn--ghost" id="clear-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+          Pulisci
+        </button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Loading -->
+  <div id="loading-state" class="loading-state" hidden aria-live="polite">
+    <div class="loading-spinner" aria-hidden="true"></div>
+    <p class="loading-text">Analizzo il verbale…</p>
+  </div>
+
+  <!-- Error -->
+  <div id="error-state" class="error-state" hidden aria-live="assertive"></div>
+
+  <!-- Results Section -->
+  <section id="results-section" class="results-section" hidden aria-labelledby="results-heading">
+    <div class="results-header">
+      <h2 id="results-heading" class="results-title"></h2>
+      <p class="results-meta"></p>
+    </div>
+
+    <div id="results-warning" class="results-warning" hidden></div>
+
+    <!-- Decisions -->
+    <article class="result-card result-card--decisions" id="card-decisions" hidden>
+      <div class="card-accent" aria-hidden="true"></div>
+      <header class="card-header">
+        <h3 class="card-title">
+          <svg class="card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          Decisioni
+        </h3>
+        <span class="card-count" id="count-decisions"></span>
+      </header>
+      <ul class="card-list" id="list-decisions"></ul>
+    </article>
+
+    <!-- Actions -->
+    <article class="result-card result-card--actions" id="card-actions" hidden>
+      <div class="card-accent" aria-hidden="true"></div>
+      <header class="card-header">
+        <h3 class="card-title">
+          <svg class="card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          Azioni
+        </h3>
+        <span class="card-count" id="count-actions"></span>
+      </header>
+      <ul class="card-list" id="list-actions"></ul>
+    </article>
+
+    <!-- Open Points -->
+    <article class="result-card result-card--open" id="card-open" hidden>
+      <div class="card-accent" aria-hidden="true"></div>
+      <header class="card-header">
+        <h3 class="card-title">
+          <svg class="card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          Punti aperti
+        </h3>
+        <span class="card-count" id="count-open"></span>
+      </header>
+      <ul class="card-list" id="list-open"></ul>
+    </article>
+
+    <!-- Save / Share Actions -->
+    <div class="results-actions" id="results-actions" hidden>
+      <button type="button" class="btn btn--primary" id="save-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+          <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+        </svg>
+        Salva e condividi
+      </button>
+      <div id="share-result" class="share-result" hidden>
+        <label for="share-url-input" class="share-label">Link di condivisione (scade tra 7 giorni):</label>
+        <div class="share-input-row">
+          <input type="text" id="share-url-input" class="share-url-input" readonly aria-label="URL di condivisione">
+          <button type="button" class="btn btn--secondary" id="copy-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copia
+          </button>
+        </div>
+        <span id="copy-feedback" class="copy-feedback" aria-live="polite"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Board Section -->
+  <section class="board-section" aria-labelledby="board-heading">
+    <h2 id="board-heading" class="board-title">Bacheca riepiloghi recenti</h2>
+    <div id="board-list" class="board-list">
+      <p class="board-empty">Nessun riepilogo salvato. Genera il tuo primo riepilogo!</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-text">Verbalino — elaborazione locale, nessun dato inviato a terzi. I riepiloghi scadono automaticamente dopo 7 giorni.</p>
+    <nav class="footer-nav" aria-label="Link rapidi">
+      <a href="sitemap.xml">Sitemap</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
