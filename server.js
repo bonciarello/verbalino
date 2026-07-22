@@ -11,7 +11,7 @@ const DATA_DIR = path.join(__dirname, 'data');
 const DATA_FILE = path.join(DATA_DIR, 'summaries.json');
 const EXPIRY_DAYS = 7;
 const MAX_BOARD_ITEMS = 20;
-const CANONICAL_BASE = 'https://cristianporco.it/app/verbalino';
+const CANONICAL_BASE = 'https://github.com/bonciarello/verbalino';
 
 // ── Data store ───────────────────────────────────────────────────────────────
 let store = { summaries: {} };
